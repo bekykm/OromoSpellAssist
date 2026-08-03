@@ -1,0 +1,11 @@
+word,lemma,meaning,pos,category,related_words,variants,examples,frequency_rank,validated
+dhuga,dhuga,"drink (imperative: 'drink!')",verb,beverage-action,dhugaa;dhuguma,,"Dhuga bishaan. (Drink water.)",1200,false
+dhugaa,dhugaa,truth,noun,abstract,dhuga;dhuguma,,"Inni dhugaa dubbata. (He speaks the truth.)",300,false
+dhuguma,dhuguma,truly / indeed,adverb,abstract,dhugaa;dhuga,,"Dhuguma jette. (You said it truly.)",900,false
+gadaa,gadaa,"Gadaa system (traditional Oromo socio-political generational system)",noun,culture-institution,gadda,,"Sirni Gadaa beekamaadha. (The Gadaa system is renowned.)",500,false
+gadda,gadda,sadness / grief,noun,emotion,gadaa,,"Gadda guddaa qaba. (He has great sorrow.)",700,false
+rafuu,rafuu,to sleep,verb,action,raafuu,,"Inni ni rafa. (He sleeps.)",600,false
+raafuu,raafuu,"Ethiopian kale / cabbage (Brassica carinata)",noun,food-plant,rafuu,,"Raafuu nyaadhe. (I ate kale.)",1500,false
+sanyi,sanyi,"seed / offspring / breed (illustrative digraph example)",noun,biology-kinship,,,"Sanyii gaarii. (Good stock/lineage.)",2000,false
+badaa,badaa,bad,adjective,quality,baddaa,,"Wanti kun badaadha. (This thing is bad.)",400,false
+baddaa,baddaa,highland,noun,geography,badaa,,"Baddaatti jiraatu. (They live in the highland.)",1800,false

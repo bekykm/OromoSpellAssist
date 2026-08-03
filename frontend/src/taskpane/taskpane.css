@@ -1,0 +1,29 @@
+body {
+  font-family: "Segoe UI", -apple-system, sans-serif;
+  margin: 0;
+  padding: 12px;
+}
+
+.taskpane h1 {
+  font-size: 16px;
+}
+
+.taskpane h2 {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #555;
+  margin-top: 16px;
+}
+
+.detected-word {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.meaning {
+  margin: 2px 0 8px;
+}
+
+.error {
+  color: #a4262c;
+}
