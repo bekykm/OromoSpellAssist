@@ -18,6 +18,16 @@ Output: Did you mean "dhuga" (drink), "dhugaa" (truth), or "dhuguma" (truly)?
 See `docs/linguistic-background.md` for why this distinction matters
 linguistically, and `docs/architecture.md` for how the pipeline works.
 
+A full Q1-journal-style manuscript draft — abstract, related work, the
+linguistic background, system/algorithm design, dataset construction,
+a pilot evaluation against a plain edit-distance baseline (with honest,
+unrounded numbers reproducible from `backend/scripts/pilot_evaluation.py`),
+error analysis, limitations, and future work — is at
+[`paper/Oromo_Spelling_Assistance_Manuscript.docx`](paper/Oromo_Spelling_Assistance_Manuscript.docx).
+Regenerate it with `cd paper/build && npm install && node generate_manuscript.js`
+(figures are pre-rendered in `paper/figures/`; rebuild them with
+`python3 paper/figures/make_figures.py` if the architecture changes).
+
 ## Status
 
 Early-stage research scaffold. The candidate-generation, ranking, and

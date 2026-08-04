@@ -1,0 +1,372 @@
+{
+  "lexicon_size": 10,
+  "n_test_items": 12,
+  "B0": {
+    "summary": {
+      "system": "B0_char_edit_distance",
+      "n_items": 12,
+      "candidate_generation_accuracy": 1.0,
+      "top1_accuracy": 0.6666666666666666,
+      "top3_accuracy": 1.0,
+      "mrr": 0.8333333333333334,
+      "mean_precision": 0.7777777777777778,
+      "mean_recall": 1.0
+    },
+    "by_contrast_type": {
+      "gemination": {
+        "n": 2,
+        "top1_accuracy": 0.5,
+        "top3_accuracy": 1.0,
+        "mrr": 0.75
+      },
+      "mixed_gemination_vowel": {
+        "n": 2,
+        "top1_accuracy": 1.0,
+        "top3_accuracy": 1.0,
+        "mrr": 1.0
+      },
+      "other_affixal": {
+        "n": 4,
+        "top1_accuracy": 0.25,
+        "top3_accuracy": 1.0,
+        "mrr": 0.625
+      },
+      "vowel_length": {
+        "n": 4,
+        "top1_accuracy": 1.0,
+        "top3_accuracy": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  "P1": {
+    "summary": {
+      "system": "P1_oromo_aware",
+      "n_items": 12,
+      "candidate_generation_accuracy": 1.0,
+      "top1_accuracy": 0.6666666666666666,
+      "top3_accuracy": 1.0,
+      "mrr": 0.8333333333333334,
+      "mean_precision": 0.7777777777777778,
+      "mean_recall": 1.0
+    },
+    "by_contrast_type": {
+      "gemination": {
+        "n": 2,
+        "top1_accuracy": 1.0,
+        "top3_accuracy": 1.0,
+        "mrr": 1.0
+      },
+      "mixed_gemination_vowel": {
+        "n": 2,
+        "top1_accuracy": 0.5,
+        "top3_accuracy": 1.0,
+        "mrr": 0.75
+      },
+      "other_affixal": {
+        "n": 4,
+        "top1_accuracy": 0.25,
+        "top3_accuracy": 1.0,
+        "mrr": 0.625
+      },
+      "vowel_length": {
+        "n": 4,
+        "top1_accuracy": 1.0,
+        "top3_accuracy": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  "B0_items": [
+    {
+      "typed": "dhuga",
+      "intended": "dhugaa",
+      "contrast_type": "vowel_length",
+      "candidate_found": true,
+      "rank": 1,
+      "top1": true,
+      "top3": true,
+      "reciprocal_rank": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "typed": "dhugaa",
+      "intended": "dhuga",
+      "contrast_type": "vowel_length",
+      "candidate_found": true,
+      "rank": 1,
+      "top1": true,
+      "top3": true,
+      "reciprocal_rank": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "typed": "dhuga",
+      "intended": "dhuguma",
+      "contrast_type": "other_affixal",
+      "candidate_found": true,
+      "rank": 2,
+      "top1": false,
+      "top3": true,
+      "reciprocal_rank": 0.5,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "typed": "dhuguma",
+      "intended": "dhuga",
+      "contrast_type": "other_affixal",
+      "candidate_found": true,
+      "rank": 1,
+      "top1": true,
+      "top3": true,
+      "reciprocal_rank": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "typed": "dhugaa",
+      "intended": "dhuguma",
+      "contrast_type": "other_affixal",
+      "candidate_found": true,
+      "rank": 2,
+      "top1": false,
+      "top3": true,
+      "reciprocal_rank": 0.5,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "typed": "dhuguma",
+      "intended": "dhugaa",
+      "contrast_type": "other_affixal",
+      "candidate_found": true,
+      "rank": 2,
+      "top1": false,
+      "top3": true,
+      "reciprocal_rank": 0.5,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "typed": "gadaa",
+      "intended": "gadda",
+      "contrast_type": "mixed_gemination_vowel",
+      "candidate_found": true,
+      "rank": 1,
+      "top1": true,
+      "top3": true,
+      "reciprocal_rank": 1.0,
+      "precision": 0.3333333333333333,
+      "recall": 1.0
+    },
+    {
+      "typed": "gadda",
+      "intended": "gadaa",
+      "contrast_type": "mixed_gemination_vowel",
+      "candidate_found": true,
+      "rank": 1,
+      "top1": true,
+      "top3": true,
+      "reciprocal_rank": 1.0,
+      "precision": 0.3333333333333333,
+      "recall": 1.0
+    },
+    {
+      "typed": "rafuu",
+      "intended": "raafuu",
+      "contrast_type": "vowel_length",
+      "candidate_found": true,
+      "rank": 1,
+      "top1": true,
+      "top3": true,
+      "reciprocal_rank": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "typed": "raafuu",
+      "intended": "rafuu",
+      "contrast_type": "vowel_length",
+      "candidate_found": true,
+      "rank": 1,
+      "top1": true,
+      "top3": true,
+      "reciprocal_rank": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "typed": "badaa",
+      "intended": "baddaa",
+      "contrast_type": "gemination",
+      "candidate_found": true,
+      "rank": 2,
+      "top1": false,
+      "top3": true,
+      "reciprocal_rank": 0.5,
+      "precision": 0.3333333333333333,
+      "recall": 1.0
+    },
+    {
+      "typed": "baddaa",
+      "intended": "badaa",
+      "contrast_type": "gemination",
+      "candidate_found": true,
+      "rank": 1,
+      "top1": true,
+      "top3": true,
+      "reciprocal_rank": 1.0,
+      "precision": 0.3333333333333333,
+      "recall": 1.0
+    }
+  ],
+  "P1_items": [
+    {
+      "typed": "dhuga",
+      "intended": "dhugaa",
+      "contrast_type": "vowel_length",
+      "candidate_found": true,
+      "rank": 1,
+      "top1": true,
+      "top3": true,
+      "reciprocal_rank": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "typed": "dhugaa",
+      "intended": "dhuga",
+      "contrast_type": "vowel_length",
+      "candidate_found": true,
+      "rank": 1,
+      "top1": true,
+      "top3": true,
+      "reciprocal_rank": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "typed": "dhuga",
+      "intended": "dhuguma",
+      "contrast_type": "other_affixal",
+      "candidate_found": true,
+      "rank": 2,
+      "top1": false,
+      "top3": true,
+      "reciprocal_rank": 0.5,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "typed": "dhuguma",
+      "intended": "dhuga",
+      "contrast_type": "other_affixal",
+      "candidate_found": true,
+      "rank": 1,
+      "top1": true,
+      "top3": true,
+      "reciprocal_rank": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "typed": "dhugaa",
+      "intended": "dhuguma",
+      "contrast_type": "other_affixal",
+      "candidate_found": true,
+      "rank": 2,
+      "top1": false,
+      "top3": true,
+      "reciprocal_rank": 0.5,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "typed": "dhuguma",
+      "intended": "dhugaa",
+      "contrast_type": "other_affixal",
+      "candidate_found": true,
+      "rank": 2,
+      "top1": false,
+      "top3": true,
+      "reciprocal_rank": 0.5,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "typed": "gadaa",
+      "intended": "gadda",
+      "contrast_type": "mixed_gemination_vowel",
+      "candidate_found": true,
+      "rank": 2,
+      "top1": false,
+      "top3": true,
+      "reciprocal_rank": 0.5,
+      "precision": 0.3333333333333333,
+      "recall": 1.0
+    },
+    {
+      "typed": "gadda",
+      "intended": "gadaa",
+      "contrast_type": "mixed_gemination_vowel",
+      "candidate_found": true,
+      "rank": 1,
+      "top1": true,
+      "top3": true,
+      "reciprocal_rank": 1.0,
+      "precision": 0.3333333333333333,
+      "recall": 1.0
+    },
+    {
+      "typed": "rafuu",
+      "intended": "raafuu",
+      "contrast_type": "vowel_length",
+      "candidate_found": true,
+      "rank": 1,
+      "top1": true,
+      "top3": true,
+      "reciprocal_rank": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "typed": "raafuu",
+      "intended": "rafuu",
+      "contrast_type": "vowel_length",
+      "candidate_found": true,
+      "rank": 1,
+      "top1": true,
+      "top3": true,
+      "reciprocal_rank": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "typed": "badaa",
+      "intended": "baddaa",
+      "contrast_type": "gemination",
+      "candidate_found": true,
+      "rank": 1,
+      "top1": true,
+      "top3": true,
+      "reciprocal_rank": 1.0,
+      "precision": 0.3333333333333333,
+      "recall": 1.0
+    },
+    {
+      "typed": "baddaa",
+      "intended": "badaa",
+      "contrast_type": "gemination",
+      "candidate_found": true,
+      "rank": 1,
+      "top1": true,
+      "top3": true,
+      "reciprocal_rank": 1.0,
+      "precision": 0.3333333333333333,
+      "recall": 1.0
+    }
+  ]
+}
